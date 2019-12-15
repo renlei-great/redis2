@@ -16,3 +16,7 @@ def get_sessions(request):
     pwd = request.session['password']
 
     return HttpResponse('用户名是：'+ name + '密码是' + pwd)
+
+
+def jj():
+    pass
