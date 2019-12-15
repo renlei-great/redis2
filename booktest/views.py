@@ -17,6 +17,3 @@ def get_sessions(request):
 
     return HttpResponse('用户名是：'+ name + '密码是' + pwd)
 
-
-def jj():
-    pass
